@@ -1,0 +1,40 @@
+Clustering vertical restringido - patrones ERA5
+===============================================
+
+Cada capa contiene exclusivamente niveles contiguos en presión.
+
+K = 2 capas
+------------
+Capa 1: 1000 - 600 hPa   (14 niveles)
+Capa 2: 550 - 200 hPa   (9 niveles)
+
+K = 3 capas
+------------
+Capa 1: 1000 - 800 hPa   (9 niveles)
+Capa 2: 775 - 600 hPa   (5 niveles)
+Capa 3: 550 - 200 hPa   (9 niveles)
+
+K = 4 capas
+------------
+Capa 1: 1000 - 800 hPa   (9 niveles)
+Capa 2: 775 - 600 hPa   (5 niveles)
+Capa 3: 550 - 300 hPa   (6 niveles)
+Capa 4: 250 - 200 hPa   (3 niveles)
+
+K = 5 capas
+------------
+Capa 1: 1000 - 950 hPa   (3 niveles)
+Capa 2: 925 - 800 hPa   (6 niveles)
+Capa 3: 775 - 600 hPa   (5 niveles)
+Capa 4: 550 - 300 hPa   (6 niveles)
+Capa 5: 250 - 200 hPa   (3 niveles)
+
+K = 6 capas
+------------
+Capa 1: 1000 - 950 hPa   (3 niveles)
+Capa 2: 925 - 800 hPa   (6 niveles)
+Capa 3: 775 - 600 hPa   (5 niveles)
+Capa 4: 550 - 450 hPa   (3 niveles)
+Capa 5: 400 - 300 hPa   (3 niveles)
+Capa 6: 250 - 200 hPa   (3 niveles)
+
