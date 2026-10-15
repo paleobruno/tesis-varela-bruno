@@ -1,0 +1,41 @@
+Clustering vertical dinámico restringido - ERA5
+===============================================
+
+Se preservan patrón, dirección e intensidad del viento.
+Cada capa contiene únicamente niveles contiguos en presión.
+
+K = 2 capas
+------------
+Capa 1: 1000 - 450 hPa   (17 niveles)
+Capa 2: 400 - 200 hPa   (6 niveles)
+
+K = 3 capas
+------------
+Capa 1: 1000 - 750 hPa   (11 niveles)
+Capa 2: 700 - 450 hPa   (6 niveles)
+Capa 3: 400 - 200 hPa   (6 niveles)
+
+K = 4 capas
+------------
+Capa 1: 1000 - 750 hPa   (11 niveles)
+Capa 2: 700 - 450 hPa   (6 niveles)
+Capa 3: 400 - 300 hPa   (3 niveles)
+Capa 4: 250 - 200 hPa   (3 niveles)
+
+K = 5 capas
+------------
+Capa 1: 1000 - 950 hPa   (3 niveles)
+Capa 2: 925 - 750 hPa   (8 niveles)
+Capa 3: 700 - 450 hPa   (6 niveles)
+Capa 4: 400 - 300 hPa   (3 niveles)
+Capa 5: 250 - 200 hPa   (3 niveles)
+
+K = 6 capas
+------------
+Capa 1: 1000 - 950 hPa   (3 niveles)
+Capa 2: 925 - 750 hPa   (8 niveles)
+Capa 3: 700 - 550 hPa   (4 niveles)
+Capa 4: 500 - 450 hPa   (2 niveles)
+Capa 5: 400 - 300 hPa   (3 niveles)
+Capa 6: 250 - 200 hPa   (3 niveles)
+
