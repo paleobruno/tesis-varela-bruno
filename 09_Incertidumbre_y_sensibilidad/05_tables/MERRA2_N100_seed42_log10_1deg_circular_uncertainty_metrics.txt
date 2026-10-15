@@ -1,0 +1,43 @@
+
+Evaluación de incertidumbre Global-Krigger
+==========================================
+
+Dataset:
+N = 100
+Seed = 42
+Transformación = log10
+Modelo de variograma = Circular
+Grilla = 1 x 1 grado
+
+Definición:
+z = [log10(MERRA2) - mu_GK] / sigma_GK
+
+Cobertura dentro de +/- 1 sigma:
+95.21 %
+
+Cobertura esperada gaussiana:
+68.27 %
+
+Cobertura dentro de +/- 2 sigma:
+99.12 %
+
+Cobertura esperada gaussiana:
+95.45 %
+
+Cobertura dentro de +/- 3 sigma:
+100.00 %
+
+Cobertura esperada gaussiana:
+99.73 %
+
+Media de z:
+-0.113736
+
+Desviación estándar de z:
+0.422925
+
+Mediana de |z|:
+0.104188
+
+Máximo de |z|:
+2.958851
