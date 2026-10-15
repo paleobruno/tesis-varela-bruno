@@ -1,0 +1,14 @@
+Comparación espacial MERRA-2 vs ERA5
+=====================================
+
+Periodo climatológico: 2001-2020
+Dominio: 80°W-20°W, 60°S-35°S
+Grilla de comparación: 1° x 1°
+
+Campo de viento       Mean wind [m/s]    r(F, wind)    r(log10(F), wind)
+------------------------------------------------------------------------
+Column mean              15.3023      -0.126289            -0.023415
+850 hPa                   9.0110      -0.241716            -0.292598
+500 hPa                  16.9748      -0.037756             0.102615
+300 hPa                  24.3684       0.054625             0.255590
+200 hPa                  27.7349       0.116330             0.344379

@@ -1,0 +1,38 @@
+
+Análisis vectorial ERA5 en celdas de alta deposición MERRA-2
+=============================================================
+
+Periodo climatológico: 2001-2020
+Dominio: 80°W-20°W, 60°S-35°S
+Grilla: 1° x 1°
+
+Selección:
+10 % de celdas con mayor deposición
+
+Umbral de deposición:
+3.502211 g m^-2 yr^-1
+
+Número total de celdas:
+1586
+
+Número de celdas seleccionadas:
+159
+
+Convención angular:
+0°   = Norte
+90°  = Este
+180° = Sur
+270° = Oeste
+
+"Transport dir." = hacia dónde se mueve el flujo
+"Wind from dir." = de dónde viene el viento
+
+
+Campo             mean_u    mean_v    |mean V|   mean |V|   Transport dir.   Wind from dir.
+                    m/s       m/s        m/s        m/s          deg               deg
+------------------------------------------------------------------------------------------------
+Column mean        14.149     0.180     14.150     14.167            89.27            269.27
+850 hPa             6.930     0.271      6.935      6.976            87.76            267.76
+500 hPa            16.321     0.408     16.326     16.348            88.57            268.57
+300 hPa            24.030     0.020     24.030     24.059            89.95            269.95
+200 hPa            28.095    -0.213     28.096     28.125            90.43            270.43

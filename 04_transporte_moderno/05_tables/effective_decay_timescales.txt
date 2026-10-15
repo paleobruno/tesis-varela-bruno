@@ -1,0 +1,34 @@
+
+Escalas efectivas de decaimiento downwind
+==========================================
+
+Modelo:
+F(x) = F0 exp(-x/L)
+
+L = 1267.49 +/- 72.77 km
+
+Relaciones:
+
+tau_eff = L / U
+
+lambda_eff = U / L = 1 / tau_eff
+
+U corresponde a la componente zonal media del viento
+en las celdas pertenecientes al top 10 % de deposición.
+
+IMPORTANTE:
+tau_eff es una escala temporal efectiva asociada al
+decaimiento espacial observado. No debe interpretarse
+todavía como un tiempo de residencia atmosférico literal.
+
+La incertidumbre mostrada considera solamente
+la incertidumbre formal de L.
+
+
+Campo              U [m/s]    tau [days]    sigma_tau    lambda [day^-1]    sigma_lambda
+-----------------------------------------------------------------------------------------
+Column mean         14.149         1.037        0.060           0.96449         0.05537
+850 hPa              6.930         2.117        0.122           0.47238         0.02712
+500 hPa             16.321         0.899        0.052           1.11255         0.06387
+300 hPa             24.030         0.610        0.035           1.63804         0.09404
+200 hPa             28.095         0.522        0.030           1.91513         0.10995
