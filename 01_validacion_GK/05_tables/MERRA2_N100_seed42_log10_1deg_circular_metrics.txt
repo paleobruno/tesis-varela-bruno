@@ -1,0 +1,44 @@
+
+Comparación Global-Krigger vs MERRA-2
+=====================================
+
+Dataset GK:
+N = 100
+Seed = 42
+Transformación = log10
+Backtransform = lognormal corregido
+Modelo de variograma = Circular
+Grilla = 1 x 1 grado
+
+Convención:
+difference = GK - MERRA2
+
+Dimensiones:
+(26, 61)
+
+Media MERRA-2:
+1.734930 g m^-2 yr^-1
+
+Media Global-Krigger:
+1.906545 g m^-2 yr^-1
+
+Bias:
+0.171615 g m^-2 yr^-1
+
+MAE:
+0.319370 g m^-2 yr^-1
+
+RMSE:
+0.758548 g m^-2 yr^-1
+
+Correlación de Pearson:
+0.933232
+
+Razón de medias GK / MERRA-2:
+1.098917
+
+Mínimo diferencia:
+-6.900053 g m^-2 yr^-1
+
+Máximo diferencia:
+4.755247 g m^-2 yr^-1
