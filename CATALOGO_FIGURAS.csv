@@ -1,0 +1,33 @@
+origen_en_zip,ruta_destino_repositorio,prioridad,descripcion
+01_vertical_regimes/Br_lower.png,03_estructura_vertical_polvo/modelo_fisico/figuras/Br_lower.png,central,Carga de polvo en régimen inferior
+01_vertical_regimes/Br_middle.png,03_estructura_vertical_polvo/modelo_fisico/figuras/Br_middle.png,central,Carga de polvo en régimen medio
+01_vertical_regimes/Br_upper.png,03_estructura_vertical_polvo/modelo_fisico/figuras/Br_upper.png,central,Carga de polvo en régimen superior
+01_vertical_regimes/fr_lower.png,03_estructura_vertical_polvo/modelo_fisico/figuras/fr_lower.png,central,Fracción de masa en régimen inferior
+01_vertical_regimes/fr_middle.png,03_estructura_vertical_polvo/modelo_fisico/figuras/fr_middle.png,central,Fracción de masa en régimen medio
+01_vertical_regimes/fr_upper.png,03_estructura_vertical_polvo/modelo_fisico/figuras/fr_upper.png,central,Fracción de masa en régimen superior
+03_downwind_gradients/dBr_ds_low_common_scale.png,04_transporte_moderno/modelo_fisico/gradientes/dBr_ds_low_common_scale.png,central,"Gradiente zonal de carga de polvo, escala cromática común"
+03_downwind_gradients/dBr_ds_mid_common_scale.png,04_transporte_moderno/modelo_fisico/gradientes/dBr_ds_mid_common_scale.png,central,"Gradiente zonal de carga de polvo, escala cromática común"
+03_downwind_gradients/dBr_ds_high_common_scale.png,04_transporte_moderno/modelo_fisico/gradientes/dBr_ds_high_common_scale.png,central,"Gradiente zonal de carga de polvo, escala cromática común"
+04_low_regime_overlay/Blow_and_dBds_low_overlay.png,04_transporte_moderno/modelo_fisico/superposiciones/Blow_and_dBds_low_overlay.png,central,Superposición de carga atmosférica y gradiente zonal
+04_regime_overlay_mid_high/Bmid_and_dBds_mid_overlay.png,04_transporte_moderno/modelo_fisico/superposiciones/Bmid_and_dBds_mid_overlay.png,central,Superposición de carga atmosférica y gradiente zonal
+04_regime_overlay_mid_high/Bhigh_and_dBds_high_overlay.png,04_transporte_moderno/modelo_fisico/superposiciones/Bhigh_and_dBds_high_overlay.png,central,Superposición de carga atmosférica y gradiente zonal
+05_latitude_source_coast/MERRA2_s0_sc_by_latitude.png,04_transporte_moderno/modelo_fisico/fuente_costa/MERRA2_s0_sc_by_latitude.png,central,Localización del máximo de deposición y costa según latitud
+05_latitude_source_coast/MERRA2_s0_sc_by_latitude_SI.png,04_transporte_moderno/modelo_fisico/fuente_costa/MERRA2_s0_sc_by_latitude_SI.png,complementaria,Localización del máximo de deposición y costa según latitud
+06_exponential_fits/exponential_scales_by_latitude.png,04_transporte_moderno/modelo_fisico/ajustes/exponential_scales_by_latitude.png,central,Escalas exponenciales de transporte estimadas por latitud
+07_continental_fit_sensitivity/continental_threshold_comparison.png,09_Incertidumbre_y_sensibilidad/modelo_fisico/continental_threshold_comparison.png,central,Sensibilidad del ajuste continental al umbral de cobertura
+07_continental_fit_sensitivity/Lc_by_latitude_thresholds.png,09_Incertidumbre_y_sensibilidad/modelo_fisico/Lc_by_latitude_thresholds.png,central,Sensibilidad del ajuste continental al umbral de cobertura
+07_continental_fit_sensitivity/ellS_by_latitude_thresholds.png,09_Incertidumbre_y_sensibilidad/modelo_fisico/ellS_by_latitude_thresholds.png,central,Sensibilidad del ajuste continental al umbral de cobertura
+09_deposition_profiles_2deg/profiles/profile_band_48.0S_46.0S.png,04_transporte_moderno/modelo_fisico/perfiles_observados/profile_band_48.0S_46.0S.png,complementaria,Perfil longitudinal de deposición de banda latitudinal
+09_deposition_profiles_2deg/profiles/profile_band_52.0S_50.0S.png,04_transporte_moderno/modelo_fisico/perfiles_observados/profile_band_52.0S_50.0S.png,complementaria,Perfil longitudinal de deposición de banda latitudinal
+09_deposition_profiles_2deg/profiles/profile_band_56.0S_54.0S.png,04_transporte_moderno/modelo_fisico/perfiles_observados/profile_band_56.0S_54.0S.png,complementaria,Perfil longitudinal de deposición de banda latitudinal
+10_full_model_2deg/profiles/model_48.0S_46.0S.png,04_transporte_moderno/modelo_fisico/ajustes_tramos/model_48.0S_46.0S.png,central,Comparación modelo físico por tramos y datos MERRA-2
+10_full_model_2deg/profiles/model_52.0S_50.0S.png,04_transporte_moderno/modelo_fisico/ajustes_tramos/model_52.0S_50.0S.png,central,Comparación modelo físico por tramos y datos MERRA-2
+10_full_model_2deg/profiles/model_56.0S_54.0S.png,04_transporte_moderno/modelo_fisico/ajustes_tramos/model_56.0S_54.0S.png,central,Comparación modelo físico por tramos y datos MERRA-2
+10_full_model_2deg/profiles/model_40.0S_38.0S.png,04_transporte_moderno/modelo_fisico/ajustes_tramos/model_40.0S_38.0S.png,central,Comparación modelo físico por tramos y datos MERRA-2
+11_southern_empirical_test/southern_model_56.0S_54.0S.png,04_transporte_moderno/modelo_fisico/ajustes_australes/southern_model_56.0S_54.0S.png,central,Modelo empírico asimétrico para bandas australes
+11_southern_empirical_test/southern_model_58.0S_56.0S.png,04_transporte_moderno/modelo_fisico/ajustes_australes/southern_model_58.0S_56.0S.png,central,Modelo empírico asimétrico para bandas australes
+13_ERA5_U_validation/U_low_52.0S_50.0S.png,04_transporte_moderno/modelo_fisico/validacion_viento/U_low_52.0S_50.0S.png,complementaria,Velocidad zonal ERA5 por banda y régimen vertical
+13_ERA5_U_validation/U_mid_52.0S_50.0S.png,04_transporte_moderno/modelo_fisico/validacion_viento/U_mid_52.0S_50.0S.png,complementaria,Velocidad zonal ERA5 por banda y régimen vertical
+12_3d_low_mid_2deg/low_52.0S_50.0S.png,04_transporte_moderno/modelo_fisico/ajustes_por_regimen/low_52.0S_50.0S.png,complementaria,Perfil físico por régimen vertical
+12_3d_low_mid_2deg/mid_52.0S_50.0S.png,04_transporte_moderno/modelo_fisico/ajustes_por_regimen/mid_52.0S_50.0S.png,complementaria,Perfil físico por régimen vertical
+14_GK_random_test/seed_42_3pts_per_band/random_sampling_map.png,09_Incertidumbre_y_sensibilidad/modelo_fisico/prueba_kriging/seed42_3pts_sampling_map.png,complementaria,Distribución de puntos aleatorios para prueba de residuos
